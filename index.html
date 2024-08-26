@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <title>encriptador</title>
+</head>
+<body>
+    <header>
+        <img class="LogoAlura"  src="/imagens/LogoAlura.png" alt="Logo da Alura">
+    </header>
+
+    <main>
+
+      <section>
+            <textarea class="text-area" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+
+            <div class="atençao">
+
+            <h6 class="informaçao">Apenas letras minusculas sem acento.</h6>
+            <imag class="iconeexclamaçao" src="/imagens/iconeexclamaçao.png" alt="icone de exclamaçao">
+
+             
+            </div>
+        
+        
+            <div class="botoes">
+              <button  class="bnt-encriptar" onclick="bntencriptar()">Criptografar</button>
+              <button class="bnt-desencriptar"onclick="bntdesencriptar()">Descriptografar</button> 
+            </div>
+
+       </section> 
+           
+   
+       <section>
+           
+             <textarea class="mensagem" cols="20" rows="10"></textarea>
+             <button class="bnt-copiar" onclick="bntcopiar()">Copiar</button>
+             <h1 class="msn"> mensagem não encontrada </h1>
+            
+       </section>
+
+    </main> 
+
+    <script src="script.js"></script>
+
+    <footer>
+        <p1 class="rodape"> Editado por André Torres, 20 de agosto de 2024.</p1>
+        
+    </footer>
+ 
+</body>
+</html>

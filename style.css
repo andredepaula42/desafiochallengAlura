@@ -1,0 +1,154 @@
+
+* {
+  background: #0d0a0f;
+  font-family:'Inter',sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+}
+ 
+.LogoAlura {
+  margin: 10px;
+  padding-top: 10px;
+  width: 2%;
+
+}
+
+main{
+  display: flex;
+  margin-bottom: 50px;
+  margin-left: 80px;
+  
+}
+
+.text-area {
+  border: none;
+  color: white;
+  margin-top: 90px;
+  text-transform: lowercase;
+}
+ 
+::placeholder {color: #0a3871;}
+  .text-area:focus {
+     outline: none;
+}
+
+ .mensagem {
+   background: white;
+   background-image: url(/imagens/boneco.png);
+   background-repeat: no-repeat;
+   border: none;
+   border-radius: 24px;
+   color: #4b0a71;
+   margin-left: 98px;
+   margin-top: 20px;
+   padding-left: 20px;
+   position: fixed;
+}
+
+.mensagem:focus { 
+    outline: none; 
+}
+
+.botoes{
+   display: flex;
+   margin-top: 18px;
+}
+
+.bnt-desencriptar {
+   background: #D8DFE8;
+   border: 1px solid #0a3871;
+   border-radius: 24px;
+   color:#0a3871;
+   cursor: pointer;
+   height: 67px;
+   margin-left: 30px;
+   width: 328px;
+  
+  
+}
+
+
+.bnt-desencriptar:hover {
+  background-color: white; /* Cor de fundo ao passar o mouse */
+  color: #4CAF50; /* Cor do texto ao passar o mouse */
+  border: 2px solid #4CAF50; /* Borda ao passar o mouse */
+}
+
+
+.bnt-encriptar {
+    background-color: #4b0a71;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color:white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+
+}
+.bnt-encriptar:hover {
+  background-color: white; /* Cor de fundo ao passar o mouse */
+  color: #4CAF50; /* Cor do texto ao passar o mouse */
+  border: 2px solid #4CAF50; /* Borda ao passar o mouse */
+
+}
+
+
+  
+
+.bnt-copiar {  
+    background:  #4b0a71;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color:#0a3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    width: 328px;
+  }
+
+  .bnt-copiar:hover{
+    background-color: rgb(160, 83, 125); /* Cor de fundo ao passar o mouse */
+    color: white; /* Cor do texto ao passar o mouse */
+    border: 2px solid white; /* Borda ao passar o mouse */
+       }
+
+
+    .rodape{
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+
+    
+      }
+
+ .atençao {
+   display: flex;
+   margin-left: 20;
+
+ }
+
+.informaçao {
+    font-size: 20px;
+    color: #495057;
+    width: 228;
+}
+
+.iconeexclamaçao{
+    background-image: url(iconeexclamaçao.png);
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    margin-top: 11px;
+    padding-left: 20px;
+    
+    
+  
+  }
+ 
+.msn{
+  font-size: 20;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
